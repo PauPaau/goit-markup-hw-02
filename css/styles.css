@@ -15,12 +15,12 @@
 
 /* Base styles */
 body {
-	font-family: 'Roboto';
+	font-family: "Roboto", sans-serif;
 	font-size: 16px;
 	line-height: 1.50;
 	letter-spacing: 0.02em;
 	color: var(--color-slate);
-	background-color: var(--color-cornflower);
+	background-color: #ffffff;
 }
 .link {
     text-decoration: none;
@@ -31,30 +31,25 @@ body {
 .logo{
 	width: 44px;
 	height: 21px;
-	font-family: 'Raleway';
+	font-family: "Raleway", sans-serif;
 	font-weight: 800;
 	font-size: 18px;
 	line-height: 1.17;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	color: var(--color-iris);
+	color: #4d5ae5;
 }
 .logo-studio{
-	width: 71px;
-	height: 21px;
-	font-family: 'Raleway';
-	font-weight: 800;
-	font-size: 18px;
-	line-height: 1.17;
-	letter-spacing: 0.03em;
-	text-transform: uppercase;
-	color: var(--color-navy-blue);
+	color: #2e2f42;
 }
 .footer-logo{
 	color: var(--color-cloud);
 }
 .btn{
+	font-family: "Roboto", sans-serif;
 	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.50;
 	letter-spacing: 0.04em;
 	color: var(--color-white);
 	background-color: var(--color-iris);
@@ -69,6 +64,7 @@ body {
 	font-size: 36px;
 	line-height: 1.11;
 	text-align: center;
+	letter-spacing: 0.02em;
 	text-transform: capitalize;
 	color: var(--color-navy-blue);
 }
@@ -90,16 +86,23 @@ body {
 .header-link:focus {
 	color: var(--color-ocean);
 }
-.header-mail,
-.header-contact{
+.header-address{
 	font-style: normal;
+}
+.header-contact{
 	color: var(--color-slate);
 }
-.header-mail:hover,
-.header-mail:focus,
 .header-contact:hover,
 .header-contact:focus{
 	color: var(--color-ocean);
+}
+
+/* Project Card styles */
+.project-card{
+	background-color: #F4F4FD;
+}
+.project-card-item{
+	background-color: #FFFFFF;
 }
 
 /* Hero styles */
