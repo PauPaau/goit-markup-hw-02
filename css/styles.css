@@ -37,7 +37,7 @@ body {
 	line-height: 1.17;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	color: #4d5ae5;
+	color: var(--color-iris);
 }
 .logo-studio{
 	color: #2e2f42;
@@ -72,6 +72,7 @@ body {
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.20;
+	letter-spacing: 0.02em;
 	color: var(--color-navy-blue);
 }
 
@@ -80,28 +81,28 @@ body {
 	width: 67px;
 	height: 24px;
 	font-weight: 500;
-	color: var(--color-navy-blue);
+	color: #434455;
 }
 .header-link:hover,
 .header-link:focus {
-	color: var(--color-ocean);
+	color: #404bbf;
 }
 .header-address{
 	font-style: normal;
 }
 .header-contact{
-	color: var(--color-slate);
+	color: #434455;
 }
 .header-contact:hover,
 .header-contact:focus{
-	color: var(--color-ocean);
+	color: #404bbf;
 }
 
-/* Project Card styles */
-.project-card{
+/* Contacts styles */
+.contacts{
 	background-color: #F4F4FD;
 }
-.project-card-item{
+.contacts-item{
 	background-color: #FFFFFF;
 }
 
@@ -125,8 +126,35 @@ body {
 .footer-text{
 	color: var(--color-cloud);
 }
+.footer-logo {
+	color: #4d5ae5;
+}
+.footer-logo-studio{
+	color: #f4f4fd;
+}
 
 /* Filters Styles */
 .filters-btn{
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.50;
+	letter-spacing: 0.04em;
+	color: #4d5ae5;
+	background-color: #F4F4FD;
 	cursor: pointer;
+}
+.filters-btn:hover,
+.filters-btn:focus{
+	color: #FFFFFF;
+	background-color: #404BBF;
+}
+
+/* Project Card styles */
+.project-card {
+	background-color: #F4F4FD;
+}
+
+.project-card-item {
+	background-color: #FFFFFF;
 }
