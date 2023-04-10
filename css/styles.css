@@ -87,6 +87,9 @@ body {
 .header-link:focus {
 	color: #404bbf;
 }
+.header-first-link{
+	color: #2e2f42;
+}
 .header-address{
 	font-style: normal;
 }
@@ -154,7 +157,9 @@ body {
 .project-card {
 	background-color: #F4F4FD;
 }
-
 .project-card-item {
 	background-color: #FFFFFF;
+}
+.project-card-text{
+	color: #434455;
 }
