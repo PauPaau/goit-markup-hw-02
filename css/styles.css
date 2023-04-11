@@ -20,7 +20,7 @@ body {
 	line-height: 1.50;
 	letter-spacing: 0.02em;
 	color: var(--color-slate);
-	background-color: #ffffff;
+	background-color:var(--color-white);
 }
 .link {
     text-decoration: none;
@@ -29,8 +29,6 @@ body {
     list-style: none;
 }
 .logo{
-	width: 44px;
-	height: 21px;
 	font-family: "Raleway", sans-serif;
 	font-weight: 800;
 	font-size: 18px;
@@ -40,7 +38,7 @@ body {
 	color: var(--color-iris);
 }
 .logo-studio{
-	color: #2e2f42;
+	color: var(--color-grey);
 }
 .footer-logo{
 	color: var(--color-cloud);
@@ -78,32 +76,30 @@ body {
 
 /* Header styles */
 .header-link{
-	width: 67px;
-	height: 24px;
 	font-weight: 500;
-	color: #2e2f42;
+	color: var(--color-grey);
 }
 .header-link:hover,
 .header-link:focus {
-	color: #404bbf;
+	color: var(--color-ocean);
 }
 .header-address{
 	font-style: normal;
 }
 .header-contact{
-	color: #434455;
+	color: var(--color-slate);
 }
 .header-contact:hover,
 .header-contact:focus{
-	color: #404bbf;
+	color: var(--color-ocean);
 }
 
 /* Contacts styles */
 .contacts{
-	background-color: #F4F4FD;
+	background-color: var(--color-cloud);
 }
 .contacts-item{
-	background-color: #FFFFFF;
+	background-color: var(--color-white);
 }
 
 /* Hero styles */
@@ -126,11 +122,11 @@ body {
 .footer-text{
 	color: var(--color-cloud);
 }
-.footer-logo {
-	color: #4d5ae5;
+.footer-logo{
+	color: var(--color-iris);
 }
 .footer-logo-studio{
-	color: #f4f4fd;
+	color: var(--color-cloud);
 }
 
 /* Filters Styles */
@@ -140,23 +136,23 @@ body {
 	font-size: 16px;
 	line-height: 1.50;
 	letter-spacing: 0.04em;
-	color: #4d5ae5;
-	background-color: #F4F4FD;
+	color: var(--color-iris);
+	background-color: var(--color-cloud);
 	cursor: pointer;
 }
 .filters-btn:hover,
 .filters-btn:focus{
-	color: #FFFFFF;
-	background-color: #404BBF;
+	color: var(--color-white);
+	background-color: var(--color-ocean);
 }
 
 /* Project Card styles */
 .project-card {
-	background-color: #F4F4FD;
+	background-color: var(--color-cloud);
 }
 .project-card-item {
-	background-color: #FFFFFF;
+	background-color: var(--color-white);
 }
 .project-card-text{
-	color: #434455;
+	color: var(--color-slate);
 }
